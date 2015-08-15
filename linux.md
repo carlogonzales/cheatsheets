@@ -18,3 +18,5 @@
 + `passwd [USERNAME]` - Changes the password of a specific user. _Logged in as root_
 + `userdel [USERNAME]` - Remove a user from the system. _Logged in as root_
 + `userdel [USERNAME]` - Remove a user from the system and its user folder on the `/home` directory and mail spools. _Logged in as root_
++ `usermod -G [GROUPNAME1],...,[GROUPNAMEN] [USERNAME]` - Change the user groups. If the user's already a member of the group, the user will be removed from the group. _Logged in as root_
++ `usermod -G -a [GROUPNAME1],...,[GROUPNAMEN] [USERNAME]` - Change the user groups. 
