@@ -16,3 +16,5 @@
 + `useradd [USERNAME]` - Add new system user
 + `passwd` - Changes password of the current user
 + `passwd [USERNAME]` - Changes the password of a specific user. _Logged in as root_
++ `userdel [USERNAME]` - Remove a user from the system. _Logged in as root_
++ `userdel [USERNAME]` - Remove a user from the system and its user folder on the `/home` directory and mail spools. _Logged in as root_
