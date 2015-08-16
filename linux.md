@@ -22,3 +22,7 @@
 + `usermod -G [GROUPNAME1],...,[GROUPNAMEN] [USERNAME]` - Change the list of groups the user belongs to. _Logged in as root_
 + `usermod -G -a [GROUPNAME1],...,[GROUPNAMEN] [USERNAME]` - Add a user to the group. _Logged in as root_
 + `groups [USERNAME]` - Shows the list of groups the user belongs to
+
+### Password
+
++ `apg` - Generate a random password
