@@ -10,6 +10,7 @@ DECLARE -- optional
 BEGIN
    -- statements
 EXCEPTIONS -- optional
+   -- handle exception
 END;
 ```
 
@@ -19,9 +20,11 @@ END;
 PROCEDURE [name]
 IS
 DECLARE -- optional
+   -- declarations here
 BEGIN
   -- statements
 EXCEPTION -- optional
+  -- handle exception
 END;
 ```
 
@@ -31,8 +34,10 @@ END;
 FUNCTION [name]
 RETURN [datatype] IS
 DECLARE -- optional
+   -- declarations here
 BEGIN
   -- statements
 EXCEPTION --optional
+  -- handle exception
 END;
 ```
