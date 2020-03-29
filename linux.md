@@ -46,3 +46,10 @@
 + `ufw deny [PORT]/[PROTOCOL]` - Deny connections on a port on a specific protocol, e.g. `22/tcp`.
 + `ufw deny [FROM_PORT]:[TO_PORT]/[PROTOCOL]` - Deny connections an a range of port on a specific protocol, e.g. `22/tcp`.
 + `ufw deny from [IP_ADDRESS]` - Deny connections from a specific IP address.
+
+## FileSystem
+
+### Info
++ `findmnt` - List all mounted file systems
++ `df` - List all overview of volumnes (e.g. Free Volume, Used Volume)
++ `du` - Show the file space usage 
